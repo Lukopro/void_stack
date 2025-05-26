@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.luko.void_stack.mixin",
+  "refmap": "void_stack.refmap.json",
+  "mixins": [
+    "AlternateDimensionsMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
