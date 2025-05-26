@@ -9,9 +9,8 @@ import org.slf4j.LoggerFactory;
 public class VoidStack
 {
     public static final String MODID = "void_stack";
-    private static final Logger LOGGER = LoggerFactory.getLogger(VoidStack.class);
     public VoidStack(FMLJavaModLoadingContext context)
     {
-        LOGGER.warn("VoidStack loaded");
+
     }
 }

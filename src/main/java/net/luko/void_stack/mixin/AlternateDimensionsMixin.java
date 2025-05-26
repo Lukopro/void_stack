@@ -24,11 +24,6 @@ import java.util.Optional;
 
 @Mixin(value = AlternateDimensions.class, remap = false)
 public class AlternateDimensionsMixin {
-    private static final Logger LOGGER = LoggerFactory.getLogger(AlternateDimensionsMixin.class);
-    static{
-        LOGGER.warn("AlternateDimensionsMixin loaded");
-    }
-
     /**
      * @author Luko
      * @reason Changes plains biome to void biome
